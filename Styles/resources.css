@@ -158,7 +158,6 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 15px black;
   cursor: pointer;
-  z-index: 1;
 }
 
 /* #video-1 {
