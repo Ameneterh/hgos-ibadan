@@ -37,11 +37,10 @@ header {
   height: 80px;
   /* border: 1px solid white; */
   border-radius: 10px;
-  background-image: url("./Images/school-badge.png");
+  background-image: url("/Images/school-badge.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  /* display: none; */
 }
 
 #school-name {
@@ -185,16 +184,16 @@ main {
     height: 140px;
     border: 1px solid white;
     border-radius: 10px;
-    background-image: url("./Images/school-badge.png");
+    background-image: url("/Images/school-badge.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    display: flex;
   }
 
   #school-name {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
+    font-size: 30px;
     color: white;
     display: flex;
   }
