@@ -137,6 +137,7 @@ main {
 }
 
 .author-img {
+  box-sizing: border-box;
   height: 50px;
   width: 50px;
   border-radius: 50px;
@@ -147,7 +148,7 @@ main {
 }
 
 .vid-container p {
-  width: 90%;
+  width: 85%;
   text-align: left;
 }
 
