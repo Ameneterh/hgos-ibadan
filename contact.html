@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="./Styles/index.css">
+  <link rel="stylesheet" href="./Styles/contact.css">
 
   <title>HOME | Hebron Group of Schools</title>
 </head>
@@ -27,10 +27,10 @@
         <p id="school-motto">Born to Reign</p>
       </div>
       <nav>
-        <a href="index.html" id="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="about.html">About us</a>
         <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact us</a>
+        <a href="contact.html" id="active">Contact us</a>
       </nav>
 
       <!-- dropdown for mobile phones -->
@@ -50,21 +50,40 @@
   </header>
 
   <main>
-    <section id="image-carousel">
-      <h1>Image Carousel</h1>
-    </section>
-
-    <section id="proprietor-section">
-      <figure id="proprietor-picture">
-        <img id="proprietor" src="./Images/proprietor.jpg" alt="proprietor's name">
-        <figcaption>Name of Proprietor</figcaption>
-      </figure>
-      <div id="proprietor-message">
-        <h1>From the Proprietor's Desk</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ipsam sit natus numquam iure, minima dolor
-          minus vero nostrum fuga eius incidunt, veritatis quod quidem et doloribus, vitae magnam amet?</p>
+    <div id="innerMain">
+      <div id="contact-us">
+        <div id="get-in-touch">
+          <h1>Get in touch <span id="breakhere">with us today</span></h1>
+          <h2>For more information:</h2><br />
+          <p>Send us an email: <a href="mailto:hebrongroupofschool@gmail.com">hebrongroupofschool@gmail.com</a> or <a
+              href="mailto:galaxygg2004@yahoo.com">galaxygg2004@yahoo.com</a>
+            <br />
+            Give us a call/SMS - +2348036532472<br />
+            Send us a WhatsApp chat - +2348034402072
+          </p>
+          <p>Connect us on <a href="http://www.instagram.com/galaxyelearning" target="_blank"
+              rel="noopener noreferrer">@galaxyelearning</a></p>
+          <p>You can visit the school premises: <br />
+            <b>MONDAYS-FRIDAYS</b> - 8.00 AM - 2.00 PM <br />
+          </p>
+          <hr />
+          <p><b>HELP US SERVE YOU BETTER;</b> <br />Fill this form <a href="http://" target="_blank"
+              rel="noopener noreferrer">HGOS -
+              Survey Form</a>
+          </p>
+        </div>
+        <div id="form-section">
+          <form id="contact-form">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="contact-number" placeholder="Contact Number">
+            <input type="text" id="office" placeholder="Office">
+            <textarea name="message" form="contact-form" id="message">Your Message ...</textarea>
+            <input type="submit" id="submit" value="SUBMIT">
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer>

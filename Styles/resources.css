@@ -18,7 +18,7 @@ body {
 
 header {
   width: 100%;
-  background: rgb(1, 66, 1);
+  background: rgb(1, 92, 51);
   position: fixed;
   z-index: 1;
 }
@@ -33,10 +33,9 @@ header {
 }
 
 #header-img {
-  width: 100px;
+  width: 80px;
   height: 80px;
-  /* border: 1px solid white; */
-  border-radius: 10px;
+  border-radius: 80px;
   background-image: url("/Images/school-badge.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -169,7 +168,7 @@ main {
 @media screen and (min-width: 800px) {
   header {
     width: 100%;
-    background: rgb(1, 66, 1);
+    background: rgb(1, 92, 51);
   }
 
   #header {
@@ -182,10 +181,10 @@ main {
   }
 
   #header-img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 130px;
     background-image: url("/Images/school-badge.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -222,7 +221,7 @@ main {
   }
 
   #active {
-    border: 3px solid yellow;
+    border: 2px solid yellow;
     box-shadow: 0 0 10px white;
   }
 
