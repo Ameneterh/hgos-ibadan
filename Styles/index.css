@@ -342,7 +342,7 @@ footer hr {
     justify-content: space-between;
   }
 
-  nav a {
+  /* nav a {
     width: 120px;
     height: 40px;
     border-radius: 10px;
@@ -353,16 +353,85 @@ footer hr {
     color: white;
     background-color: green;
     box-shadow: 0 0 10px black inset;
-  }
+  } */
 
   #active {
-    border: 2px solid yellow;
+    color: yellow;
+    font-weight: 900;
+    text-shadow: 0 0 10px 10px white;
+  }
+
+  /* nav a:hover {
+    border: 3px solid yellow;
+    box-shadow: 0 0 10px white;
+  } */
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    background-color: green;
+    box-shadow: 0 0 10px black inset;
+  }
+
+  li {
+    display: inline-block;
+    place-items: calc(50%);
+    padding: 8px 5px;
+    margin: 0 10px;
+  }
+
+  ul li ul {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 40px;
+    padding: 10px 0;
+    border-left: 3px solid yellow;
+    z-index: 1;
+  }
+
+  ul li a {
+    color: white;
+  }
+
+  ul li ul li {
+    display: block;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    text-align: left;
+    padding: 5px 10px;
+  }
+
+  ul li:hover {
+    border: 3px solid yellow;
     box-shadow: 0 0 10px white;
   }
 
-  nav a:hover {
-    border: 3px solid yellow;
-    box-shadow: 0 0 10px white;
+  ul li:hover ul {
+    display: block;
+    background-color: green;
+  }
+
+  ul li:hover ul li:hover {
+    width: 100%;
+    box-shadow: none;
+    color: white;
+    background-color: blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 3px solid yellow;
   }
 
   #drop-down {
