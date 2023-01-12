@@ -130,7 +130,7 @@ ul li ul li {
   padding: 5px 10px;
 }
 
-ul li:hover {
+/* ul li:hover {
   background-color: blue;
   border-bottom: 3px solid yellow;
 }
@@ -150,7 +150,7 @@ ul li:hover ul li:hover {
   border-right: none;
   border-radius: 0;
   border-bottom: 3px solid yellow;
-}
+} */
 
 /* start of main content styling */
 

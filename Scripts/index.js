@@ -10,3 +10,13 @@ function getDropMenu() {
     menu.style.display = "flex";
   }
 }
+
+function getResourcesDropMenu() {
+  var menu = document.getElementById("resources");
+
+  if (menu.style.display == "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
