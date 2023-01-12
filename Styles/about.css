@@ -442,12 +442,15 @@ footer hr {
   }
 
   ul li ul {
+    box-sizing: border-box;
     display: none;
     position: absolute;
-    top: 38px;
+    top: 28px;
     left: 40px;
-    padding: 10px 0;
+    width: fit-content;
+    background-color: blue;
     border-left: 3px solid yellow;
+    border-right: none;
     z-index: 1;
   }
 
