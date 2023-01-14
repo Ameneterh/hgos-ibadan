@@ -85,9 +85,14 @@ nav {
   background-color: green;
   top: 70px;
   right: 50px;
-  width: 100px;
-  height: 160px;
+  width: 120px;
+  padding-bottom: 5px;
+  height: fit-content;
   display: none;
+}
+
+#drop-down-menu hr {
+  border: 1px solid rgb(167, 164, 164);
 }
 
 ul {
@@ -98,7 +103,7 @@ ul li {
   position: relative;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 30px;
   color: white;
 }
 
@@ -108,13 +113,14 @@ li {
   padding: 8px 10px;
 }
 
-ul li ul {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 95px;
-  border-right: 3px solid white;
-  z-index: 1;
+#inactive {
+  pointer-events: none;
+  cursor: none;
+}
+
+.shift-right {
+  width: 100%;
+  padding-left: 25px;
 }
 
 ul li a {
@@ -131,25 +137,7 @@ ul li ul li {
 }
 
 ul li:hover {
-  background-color: blue;
-  border-bottom: 3px solid yellow;
-}
-
-ul li:hover ul {
-  display: block;
-  background-color: green;
-}
-
-ul li:hover ul li:hover {
-  width: 100%;
-  box-shadow: none;
-  color: white;
-  background-color: blue;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-  border-bottom: 3px solid yellow;
+  background-color: grey;
 }
 
 /* start of main content styling */

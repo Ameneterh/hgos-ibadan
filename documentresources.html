@@ -13,9 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="./Styles/videoresources.css">
+  <link rel="stylesheet" href="./Styles/documentresources.css">
 
-  <title>Video Resources | Hebron Group of Schools</title>
+  <title>Document Resources | Hebron Group of Schools</title>
 </head>
 
 <body>
@@ -77,29 +77,17 @@
   </header>
 
   <main>
-    <div class="videos">
-      <div class="vid-container">
-
-        <iframe class="show-video" id="video-1" width="560" height="315" src="https://www.youtube.com/embed/ZyRziVjB2fc"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="vid-author-title">
-          <div class="author-img"></div>
-          <p>How to determine rate of a reaction in the laboratory <b>by Jolayemi</b></p>
-        </div>
+    <button type="button" id="btn" onload="loadtcPage()">Click Me</button>
+    <!-- modal page, displays on page load -->
+    <div id="tcmodal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Modal Text Here</p>
       </div>
+    </div>
 
-      <div class="vid-container">
-        <iframe class="show-video" id="video-1" width="560" height="315" src="https://www.youtube.com/embed/nOcMlJq1_qc"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <div class="vid-author-title">
-          <div class="author-img"></div>
-          <p>Oxidation and reduction in simple tabular form <b>by Jolayemi</b></p>
-        </div>
-      </div>
+    <div class="downloadable">
+
     </div>
   </main>
 
